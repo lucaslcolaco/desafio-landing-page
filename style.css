@@ -1,0 +1,150 @@
+*{
+    margin:0px;
+    font-family: inter;
+}
+
+#cabecalho{
+    background-color: #303030;
+    font-family: inter;
+}
+
+#titulo-cabecalho{
+    color: #FFF;
+    font-feature-settings: 'liga' off;
+    /* Display xl/SemiBold */
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 120% */
+    letter-spacing: -1.5px;
+    padding-top: 206px;
+    padding-left: 62px;
+}
+
+
+#texto-cabecalho{
+    color: #FFF;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 140% */
+    padding-left: 62px;
+    padding-bottom: 149px;
+}
+
+#menu-informacional{
+    background-color: #f9f9f9;
+    display:flex;
+    flex-direction: row;
+    gap: 0px 99px;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    padding-left: 171px;
+    padding-right: 64px;
+}
+
+
+.numero{
+    font-size: 40px;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 70% */
+    margin: 10px;
+}
+
+.texto{
+    font-size: 25px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#titulo-secao-foto{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 50% */
+    margin-top: 304px;
+    margin-left: 77px;
+}
+
+#texto-secao-foto{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-left: 77px;
+    margin-bottom: 314px;
+}
+
+.secao-foto{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#foto{
+    margin-top: 82px;
+    margin-left: 64px;
+    margin-bottom: 92px;
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+}
+
+#titulo-formulario{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 87px;
+    font-size: 32px;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-top: 48px;
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+}
+
+button{
+    width: 286px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #C07212;
+    margin-top: 88px;
+    margin-bottom: 87px;
+    padding-top: 22px;
+    padding-left: 46px;
+    padding-right: 47px;
+    padding-bottom: 22px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 100% */
+}
